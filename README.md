@@ -3,7 +3,7 @@ Interactive GSSP Application made in R using the Deep Time Knowledge Base
 
 ## Documentation
 
-[documentation](./documentation) contains all of the documentuation for this application.
+[documentation](./documentation) contains all of the documentation for this application.
 
 This includes:
 - Final report
