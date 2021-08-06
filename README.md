@@ -7,7 +7,7 @@ Interactive GSSP Application made in R using the Deep Time Knowledge Base
 
 This includes:
 - Final report
-- Powerpoint slides (WIP)
+- Powerpoint slides
 - Video (WIP)
 
 ## Source Code
