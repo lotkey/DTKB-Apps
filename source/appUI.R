@@ -55,9 +55,12 @@ appUI <- shinyUI({
             leafletOutput(outputId = "gplatesleaflet", height = 900)
         ),
         # About page
+        # Contains link to Github repository with source code
         tabItem(
           tabName = "about",
-          h1("Info")
+          h1("About"),
+          h5("The source code and a document outlining the UI and server of this app are available at the link below."),
+          tags$a(href="https://github.com/lotkey/Interactive-GSSP-App", "https://github.com/lotkey/Interactive-GSSP-App")
         )
       )
     )

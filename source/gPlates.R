@@ -121,6 +121,7 @@ getConceptsAndCoordinates <- function(result) {
   # Create a dataframe and set the column names
   df <- data.frame(concepts, longitude, latitude, time)
   colnames(df) <- c("concept", "longitude", "latitude", "time")
+  print(df)
   return(df[order(df$time),])
   
 }
