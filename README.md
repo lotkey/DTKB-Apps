@@ -1,4 +1,4 @@
-# DTKB-Apps
+# DTKB Apps
 Interactive applications made in R using the Deep Time Knowledge Base
 
 [Interactive GTS App](./Interactive&#32;GTS&#32;App) provides function demonstrations for the functions in the DeepTimeKB R package.
