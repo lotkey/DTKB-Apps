@@ -60,7 +60,7 @@ appUI <- shinyUI({
           tabName = "about",
           h1("About"),
           h5("The source code and a document outlining the UI and server of this app are available at the link below."),
-          tags$a(href="https://github.com/lotkey/Interactive-GSSP-App", "https://github.com/lotkey/Interactive-GSSP-App")
+          tags$a(href="https://github.com/lotkey/DTKB-Apps", "https://github.com/lotkey/DTKB-Apps")
         )
       )
     )
