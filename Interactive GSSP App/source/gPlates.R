@@ -159,7 +159,7 @@ getLeafletMap <- function(concept, time, longitude, latitude, reconstructionMode
   )
   
   # Construct a popup with basic information (name, longitude/latitude, age)
-  popup <- paste("<b><i>", concept, "</b></i><br><b>Longitude: </b>", longitude, "°<br><b>Latitude: </b>", latitude, "°<br><b>Age: </b>", time, " Ma", sep = "")
+  popup <- paste("<b><i>", concept, "</b></i><br><b>Longitude: </b>", longitude, "<br><b>Latitude: </b>", latitude, "<br><b>Age: </b>", time, " Ma", sep = "")
   
   # Construct a leaflet map with markers and popups and return it
   l <- leaflet(json) %>%

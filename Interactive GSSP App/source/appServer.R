@@ -48,7 +48,7 @@ appServer <- function(input, output, session) {
       )
       
       # Create popup text with HTML formatting
-      popup <- paste("<b><i>", concept, "</b></i><br><b>Longitude: </b>", longitude, "°<br><b>Latitude: </b>", latitude, "°<br><b>Age: </b>", time, " Ma", sep = "")
+      popup <- paste("<b><i>", concept, "</b></i><br><b>Longitude: </b>", longitude, "?<br><b>Latitude: </b>", latitude, "?<br><b>Age: </b>", time, " Ma", sep = "")
       
       # Create a leaflet map with no JSON for reconstructed coastlines
       #   but with a marker and a popup window
